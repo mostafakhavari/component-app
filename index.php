@@ -1,29 +1,24 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-
-    <title>first-practice</title>
-</head>
+<?php
+include_once ('./layout/head.php');
+?>
 <body>
     <?php
-    include_once ('./Component/Header.php');
+    include_once ('./Component/header.php');
     ?>
 
     <br>
     <?php
-    include_once ('./Component/Slider.php');
+    include_once ('./Component/slider.php');
     ?>
     <br>
     <br>
     <?php
-    include_once ('./Component/Footer.php');
+    include_once ('./Component/footer.php');
     ?>
 </body>
 </html>
+<?php
+include_once ('./layout/scripts.php');
+?>
