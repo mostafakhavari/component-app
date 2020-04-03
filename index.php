@@ -5,17 +5,17 @@ include_once ('./layout/head.php');
 ?>
 <body>
     <?php
-    include_once ('./Component/header.php');
+    include_once ('./Components/header.php');
     ?>
 
     <br>
     <?php
-    include_once ('./Component/slider.php');
+    include_once ('./Components/slider.php');
     ?>
     <br>
     <br>
     <?php
-    include_once ('./Component/footer.php');
+    include_once ('./Components/footer.php');
     ?>
 </body>
 </html>
