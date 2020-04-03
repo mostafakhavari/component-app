@@ -1,4 +1,6 @@
 @import "variables";
+@import "bootstrap-slider";
+@import "bootstrap-card";
 body{
   background-color:$bg-color-day;
   .footer {
@@ -10,3 +12,4 @@ body{
     background-color:$bg-light;
   }
 }
+

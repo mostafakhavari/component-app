@@ -1,3 +1,10 @@
+.bootstrap-card .title-component h4 {
+  border-bottom: 2px solid #24ceaa;
+  display: inline-block;
+  padding: 5px; }
+.bootstrap-card .card .card-body .card-btn-custom {
+  border: none; }
+
 body {
   background-color: #ffffff; }
   body .footer {
