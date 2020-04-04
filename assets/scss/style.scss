@@ -1,8 +1,18 @@
 @import "variables";
 @import "bootstrap-slider";
 @import "bootstrap-card";
+@import "carousel";
 body{
   background-color:$bg-color-day;
+
+  .title-components{
+    h4 {
+      border-bottom: 2px solid #24ceaa;
+      display: inline-block;
+      padding: 5px;
+    }
+  }
+
   .footer {
     position: relative;
     bottom: 0;
@@ -10,6 +20,7 @@ body{
     height: 60px;
     line-height: 60px;
     background-color:$bg-light;
+
   }
 }
 

@@ -8,16 +8,19 @@ include_once ('./layout/head.php');
 <body>
     <?php
     //header --
-    include_once ('./Components/header.php');
+    include_once ('./components/header.php');
 
     //slider --
-    include_once ('./Components/bootstrap-slider.php');
+    include_once ('./components/bootstrap-slider.php');
 
     //card --
-    include_once ('./Components/bootstrap-card.php');
+    include_once ('./components/bootstrap-card.php');
+
+    //owl-carousel --
+    include_once ('./components/carousel.php');
 
     //footer --
-    include_once ('./Components/footer.php');
+    include_once ('./components/footer.php');
 
     ?>
 </body>

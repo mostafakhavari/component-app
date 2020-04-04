@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12 mt-3">
-            <div class="title-component">
+            <div class="title-components">
                 <h4>this title for card section</h4>
             </div>
         </div>

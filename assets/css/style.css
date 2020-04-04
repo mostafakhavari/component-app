@@ -1,12 +1,19 @@
-.bootstrap-card .title-component h4 {
-  border-bottom: 2px solid #24ceaa;
-  display: inline-block;
-  padding: 5px; }
 .bootstrap-card .card .card-body .card-btn-custom {
   border: none; }
 
+.carousel .owl-nav {
+  font-size: 40px;
+  text-align: center; }
+  .carousel .owl-nav button {
+    outline: none;
+    margin-right: 30px; }
+
 body {
   background-color: #ffffff; }
+  body .title-components h4 {
+    border-bottom: 2px solid #24ceaa;
+    display: inline-block;
+    padding: 5px; }
   body .footer {
     position: relative;
     bottom: 0;
