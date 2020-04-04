@@ -12,7 +12,7 @@
           echo "
                 <div class='col-md-6 col-lg-4 col-xl-3 mt-3'>
                 <div class='card'>
-            <img class='card-img-top' src='./assets/img/card-1.jpg' alt='Card image' />
+            <img class='card-img-top' src='./assets/img/img-card-1.jpg' alt='Card image' />
             <div class='card-body'>
                 <h5 class='card-title'>title</h5>
                 <p class='card-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
