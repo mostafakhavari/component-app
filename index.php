@@ -19,6 +19,9 @@ include_once ('./layout/head.php');
     //owl-carousel --
     include_once ('./components/carousel.php');
 
+    //owl-carousel --
+    include_once ('./components/our-team.php');
+
     //footer --
     include_once ('./components/footer.php');
 

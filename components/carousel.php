@@ -8,13 +8,14 @@
             </div>
         </div>
         <div class="owl-carousel p-3">
-            <div >  <img class='card-img-top' height="180" src='./assets/img/img-carousel-1.jpg' alt='Card image' /> </div>
-            <div>  <img class='card-img-top' height="180" src='./assets/img/img-carousel-2.jpg' alt='Card image' /> </div>
-            <div>  <img class='card-img-top' height="180" src='./assets/img/img-carousel-3.jpg' alt='Card image' /> </div>
-            <div>  <img class='card-img-top' height="180" src='./assets/img/img-carousel-4.jpg' alt='Card image' /> </div>
-            <div>  <img class='card-img-top' height="180" src='./assets/img/img-carousel-5.jpg' alt='Card image' /> </div>
-            <div>  <img class='card-img-top' height="180" src='./assets/img/img-carousel-6.jpg' alt='Card image' /> </div>
-
+            <?php
+            for ( $i = 0 ; $i < 6 ; $i++ ) {
+                echo "
+            <div ><img class='card-img-top' height='180' src='./assets/img/img-carousel-1.jpg' alt='Card image' /> </div>
+            <div ><img class='card-img-top' height='180' src='./assets/img/img-carousel-2.jpg' alt='Card image' /> </div>
+           ";
+            }
+            ?>
         </div>
     </div>
 </div>

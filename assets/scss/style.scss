@@ -2,6 +2,7 @@
 @import "bootstrap-slider";
 @import "bootstrap-card";
 @import "carousel";
+@import "our-team";
 body{
   background-color:$bg-color-day;
 
@@ -12,7 +13,6 @@ body{
       padding: 5px;
     }
   }
-
   .footer {
     position: relative;
     bottom: 0;
